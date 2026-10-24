@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Configuração dos caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Página de Cadastro</title>
+
+    <!-- Ligação com o mesmo arquivo CSS do site -->
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+    <body>
+
+    <div class="cadastro">
+
+        <div class="texto">
+            <h1>Cadastro</h1>
+            <p>Crie sua conta</p>
+        </div>
+
+        <form>
+            <div class="input-cadastro">
+                <input type="text" id="nome" name="nome" placeholder=" " required>
+                <label for="nome">Nome</label>
+            </div>
+
+            <div class="input-cadastro">
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <label for="email">E-mail</label>
+            </div>
+
+            <div class="input-cadastro">
+                <input type="text" id="usuario" name="usuario" placeholder=" " required>
+                <label for="usuario">Usuário</label>
+            </div>
+
+            <div class="input-cadastro">
+                <input type="password" id="senha" name="senha" placeholder=" " required>
+                <label for="senha">Senha</label>
+            </div>
+
+            <div class="input-cadastro">
+                <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder=" " required>
+                <label for="confirmarSenha">Confirmar senha</label>
+            </div>
+
+            <button type="submit" class="botaocd">Cadastrar</button>
+        </form>
+
+        <div class="façalogin">
+            <p>
+                Já possui uma conta?
+                <a href="login.html">Faça login</a>
+            </p>
+        </div>
+
+    </div> <!-- fecha .cadastro -->
+
+</body>
+</html>

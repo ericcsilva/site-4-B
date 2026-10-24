@@ -1,0 +1,580 @@
+/*Esqueci minha senha cod*/
+
+.recuperar{
+    width: 400px;
+    height:100%;
+    min-height: 300px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0px 40px #4d71b5;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  15px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 50px auto;
+
+    
+}
+
+.recuperar form {
+    width: 100%;
+    
+}
+
+
+body {
+    background-image: url('Estrela Azul Parcial em Fundo Preto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.input-esqueci{
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #4d71b5; 
+    margin: 30px auto ;
+    
+}
+
+.input-esqueci label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    pointer-events:none;
+    transition: .5s;
+}
+
+
+.input-esqueci input:focus ~ label,
+.input-esqueci input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 0.8em;
+    color: #4d71b5;
+}
+
+.input-esqueci input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+   
+}
+
+
+.linha {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    
+    margin-top: -20px;
+}
+
+.btn-recuperarsenha{
+    background-color: #4d71b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-recuperarsenha:hover {
+    background-color: white;
+    color: #4d71b5;
+}
+
+
+.voltar-login {
+    color:#4d71b5;
+
+}
+
+
+/*///////pg login//////////////*/
+
+
+.login {
+    width: 400px;
+    height:100%;
+    min-height: 300px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0px 25px #4d71b5;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  15px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 50px auto;
+
+    
+}
+
+.caixa-login form {
+    width: 100%;
+    
+}
+
+.login h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  
+}
+
+.login h4 {
+    margin: 0;
+    margin-top: -5px;   /* aproxima ainda mais, se necessário */
+   
+}
+
+body {
+    background-image: url('Estrela Azul Parcial em Fundo Preto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.caixa-login,
+.caixa-login form {
+    width: 100%;
+}
+
+.input-login {
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #4d71b5;
+    margin: 20px auto;
+}
+
+.input-login label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-login input:focus ~ label,
+.input-login input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 0.8em;
+    color: #4d71b5;
+}
+
+.input-login input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-login {
+    background-color: #4d71b5;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1em;
+}
+
+.btn-login:hover {
+    background-color: white;
+    color: #4d71b5;
+}
+
+.btn-cadastro {
+   width:250px;
+   height:26px;
+   background:transparent;
+   outline:none;
+   border-radius:11px;
+   border: 1px solid #4d71b5;
+   cursor:pointer;
+   font: size 13px;;
+   color:#f5f6f9;
+   background-color:#4d71b5;
+   font-weight:500;
+   margin-left:10px;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   text-decoration:none;
+   font-weight: 400;
+}
+
+.link-senha {
+    color: #4d71b5;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn-cadastro:hover {
+   
+    background-color: white;
+    color:#4d71b5;
+}
+
+
+
+
+/*///////pg cadastro//////////////*/
+
+
+
+.cadastro {
+    width: 100%;
+    max-width: 400px;
+    min-height: 300px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0px 25px #4d71b5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 50px auto;
+}
+
+.cadastro form {
+    width: 100%;
+}
+
+.input-cadastro {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #4d71b5;
+    margin: 22px 0;
+}
+
+.input-cadastro label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-cadastro input:focus ~ label,
+.input-cadastro input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 0.8em;
+    color: #4d71b5;
+}
+
+.input-cadastro input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto h1 {
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.texto p {
+    margin: 5px 0 0;
+    font-weight: bold;
+   
+}
+
+.botaocd {
+   
+   width: 100px;
+   height: 40px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
+   background: transparent;
+   outline: none;
+   border-radius: 11px;
+   border: 1px solid #4d71b5;
+   cursor: pointer;
+   font-size: 15px;
+   color: #f5f6f9;
+   background-color: #4d71b5;
+   font-weight: 500;
+  justify-content: center;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   
+}
+
+.botaocd:hover {
+    background-color: white;
+    color: #4d71b5;
+}
+
+.façalogin {
+    text-align: center;
+}
+
+a {
+    color: #4d71b5;
+}
+
+
+/*///////pg fale conosco//////////////*/
+
+.contato {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0px 25px #4d71b5;
+    flex-direction: column;
+    padding: 15px 30px 30px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px auto;
+}
+
+
+/* 
+
+    position:relative;
+    width: 100%;
+    height:auto;
+    min-height: 450px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0px 40px #4d71b5;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  15px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 50px auto;*/
+
+.contato h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.contato p {
+    margin: 5px 0 0;
+    font-weight: bold;
+    text-align: center;
+}
+.contato form {
+    width: 100%;
+}
+
+.input-contato {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #4d71b5;
+    margin: 22px 0;
+}
+
+.input-contato label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-contato input:focus ~ label,
+.input-contato input:not(:placeholder-shown) ~ label,
+.input-contato textarea:focus ~ label,
+.input-contato textarea:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 0.8em;
+    color: #4d71b5;
+}
+
+.input-contato input,
+.input-contato textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+/* Mensagem: campo mais alto */
+.textarea-contato {
+    height: auto;
+    min-height: 45px;
+}
+
+.textarea-contato label {
+    top: 22px;
+}
+
+.textarea-contato textarea {
+    display: block;
+    field-sizing: content;    /* cresce com o texto */
+    width: 100%;
+    min-height: 45px;
+    max-height: 250px;         /* depois disso, aparece a rolagem */
+    box-sizing: border-box;
+    padding: 12px 5px 10px 5px;
+    line-height: 1.5;
+    resize: none;
+    overflow-y: auto;
+}
+
+
+
+.botaoc{
+   width: 100px;
+   height: 40px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
+   background: transparent;
+   outline: none;
+   border-radius: 11px;
+   border: 1px solid #4d71b5;
+   cursor: pointer;
+   font-size: 15px;
+   color: #f5f6f9;
+   background-color: #4d71b5;
+   font-weight: 500;
+   justify-content: center;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   margin-top: 20px;
+   
+}
+
+.botaoc:hover {
+    background-color: white;
+    color: #4d71b5;
+}
+
+
+.outros-contatos {
+    margin-top: -10px;
+}
+
+.façalogin {
+    text-align: center;
+}
+
+
+.outros-contatos {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.outros-contatos p{
+    font-weight: lighter;
+}
+
+.outros-contatos h3{
+    font-weight: 1000;
+}
+
+
+

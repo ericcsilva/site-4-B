@@ -1,0 +1,385 @@
+.login {
+    position: relative;
+    width:400px;
+    height:auto;
+    min-height: 440px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  15px 30px 30px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+
+.login h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color:#4d71b5;
+}
+
+
+
+
+.login h4 {
+    margin: 0;
+    margin-top: -5px;   /* aproxima ainda mais, se necessário */
+    color:#4d71b5
+}
+
+
+.caixa-login{
+    width:100%;
+}
+
+
+.login form {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    gap: 8px;
+}
+
+
+
+
+
+
+.login label {
+    text-align: left;
+    width:100%;
+
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d71b5;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+
+.login input {
+    width: 100%; /*Faz a caixinha ocupar 100% da largura disponível.*/
+    padding: 8px; /*Cria um espaço dentro da caixinha, entre o texto e a borda.*/
+    margin-top: 5px; /*Cria 5px de espaço acima da caixinha, para ela não ficar grudada no texto "Usuário" ou "Senha".*/
+    border: 1px solid #4d71b5; /*Coloca uma borda fina e cinza na caixinha.*/
+    border-radius: 14px; /*Deixa os cantos arredondados.*/
+    background-color: #f1f1f1; /*Muda a cor de fundo da caixinha para um cinza claro.*/
+
+
+    /* Faz o padding ficar dentro da largura */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; /* Remove a borda azul ao clicar no input */
+}
+
+
+.login button {
+   width:130px;
+   height:50px;
+   background:transparent;
+   outline:none;
+   border-radius:11px;
+   border: 1px solid #4d71b5;
+   cursor:pointer;
+   font-size:1.1em;
+   color:#f5f6f9;
+   background-color:#4d71b5;
+   font-weight:500;
+   margin-left:100px;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   
+   
+}
+.login button:hover {
+    background-color: white;
+    color:#4d71b5;
+}
+
+
+
+
+.btn-cadastro {
+   width:250px;
+   height:26px;
+   background:transparent;
+   outline:none;
+   border-radius:11px;
+   border: 1px solid #4d71b5;
+   cursor:pointer;
+   font: size 13px;;
+   color:#f5f6f9;
+   background-color:#4d71b5;
+   font-weight:500;
+   margin-left:10px;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   text-decoration:none
+}
+
+
+
+
+
+
+.btn-cadastro:hover {
+   
+    background-color: white;
+    color:#4d71b5;
+}
+
+
+.link-senha {
+    color: #4d71b5;
+    text-decoration:underline;
+   
+}
+
+
+
+
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image:url("estrelas3\ \(1\).jpg");
+    background-size:cover;
+    background-position:center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* =========================
+   PÁGINA DE CADASTRO
+   ========================= */
+
+/* Caixa do cadastro */
+
+
+
+.cadastro {
+    position: relative;
+    width:450px;
+    height:auto;
+    min-height: 440px;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    flex-direction:column;
+    padding:  15px 30px 30px 30px;
+    box-sizing: border-box;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.cadastro input {
+    margin-top: 10px;
+    width: 100%; /*Faz a caixinha ocupar 100% da largura disponível.*/
+    padding: 8px; /*Cria um espaço dentro da caixinha, entre o texto e a borda.*/
+    margin-top: 5px; /*Cria 5px de espaço acima da caixinha, para ela não ficar grudada no texto "Usuário" ou "Senha".*/
+    border: 1px solid #4d71b5; /*Coloca uma borda fina e cinza na caixinha.*/
+    border-radius: 14px; /*Deixa os cantos arredondados.*/
+    background-color: #f1f1f1; /*Muda a cor de fundo da caixinha para um cinza claro.*/
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cadastro input {
+    outline: none; /* Remove a borda azul ao clicar no input */
+    border-color:#4d71b5
+}
+
+
+.cadastro label {
+    text-align: left;
+    width:100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d71b5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.texto {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color:#4d71b5;
+}
+
+.cadastro texto h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color:#4d71b5;
+
+}
+
+.cadastro texto h4 {
+    margin: 0;
+    margin-top: -5px;   /* aproxima ainda mais, se necessário */
+    color:#4d71b5
+}
+
+.botaocd {
+   
+   width: 100px;
+   height: 40px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
+   background: transparent;
+   outline: none;
+   border-radius: 11px;
+   border: 1px solid #4d71b5;
+   cursor: pointer;
+   font-size: 15px;
+   color: #f5f6f9;
+   background-color: #4d71b5;
+   font-weight: 500;
+   margin-left: 145px;
+   transition: .5s;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   
+}
+
+.botaocd:hover {
+    background-color: white;
+    color: #4d71b5;
+}
+
+.façalogin {
+    text-align: center;
+}
+
+a {
+    color: #4d71b5;
+}
+
+
+
+
+
+
+/* =========================
+   PÁGINA FALE CONOSCO
+   ========================= */
+
+.contato {
+    position: relative;
+    width: 450px;
+    height: auto;
+    background: transparent;
+    border: 2px solid #4d71b5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 30px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contato .texto h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #4d71b5;
+}
+
+.contato .texto p {
+    margin: 5px 0 0 0;
+    color: #4d71b5;
+    font-size: 14px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contato label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d71b5;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #4d71b5;
+    border-radius: 14px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.contato textarea {
+    resize: none;      /* tira a alça de redimensionar */
+}
+
+.contato .botaocd {
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.outros-contatos {
+    text-align: center;
+    color: #4d71b5;
+    border-top: 1px solid #4d71b5;
+    padding-top: 10px;
+}
+
+.outros-contatos h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.outros-contatos p {
+    margin: 2px 0;
+    font-size: 13px;
+    color:black;
+}
+
+.façalogin {
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+
+/* PAGINA INICIAL FEED*/ 
+
+
+
